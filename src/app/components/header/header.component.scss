@@ -71,8 +71,8 @@
 
 .img-header:hover {
   filter: grayscale(0);
-  border: 5px solid;
-  border-color: #1c2c54 #777cf4 #777cf4 #1c2c54;
+  border: 1px solid;
+  box-shadow: rgba(145, 170, 196,) 0px 22px 70px 4px;
 }
 
 @media (1200px <= width) {
