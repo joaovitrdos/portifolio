@@ -16,9 +16,12 @@
 
   section {
     margin: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 450px);
     margin-bottom: 60px;
-    margin-top: -60px;
+    justify-content: space-around;
+
+    gap: 50px;
   }
 
   .intens-pro {
@@ -30,8 +33,6 @@
     border-radius: 10px;
     width: 500px;
     height: auto;
-    margin: auto;
-    column-gap: 20px;
 
     h2 {
       margin: 10px;
