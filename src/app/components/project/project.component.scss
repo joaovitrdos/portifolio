@@ -27,12 +27,10 @@
   .intens-pro {
     background-color: $primary-color;
     border: 1px solid $secondary-color-text;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 10px;
     width: 500px;
     height: auto;
+    transition: all 1s;
 
     h2 {
       margin: 10px;
@@ -58,7 +56,8 @@
   }
 
   .intens-pro:hover {
-    border: 4px solid;
+    border: 1px solid;
+    box-shadow: rgb(145, 170, 196) 0px 20px 30px -10px;
   }
 
   .img-pro {
@@ -94,20 +93,20 @@ strong {
 
 @media (300px <= width <=1199px) {
   section {
+    margin: auto;
     display: grid;
+    grid-template-columns: repeat(auto-fill, 450px);
     margin-bottom: 60px;
-    margin-top: -30px;
-    justify-content: center;
+    justify-content: space-around;
+
+    gap: 50px;
   }
 
   .intens-pro {
     background-color: $primary-color;
     border: 1px solid $secondary-color-text;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 10px;
-    width: 500px;
+    width: 450px;
     height: auto;
   }
 
@@ -169,7 +168,7 @@ strong {
 
   .img-pro {
     filter: grayscale(0);
-    width: 500px;
+    width: 450px;
     height: 800px;
     transition: all 1s;
     border-radius: 10px;
@@ -219,9 +218,6 @@ strong {
   .intens-pro {
     background-color: $primary-color;
     border: 1px solid $secondary-color-text;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 10px;
     width: 300px;
     height: auto;
