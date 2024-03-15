@@ -1,6 +1,6 @@
 @import "../../../styles.scss";
 @import "../../../colors.scss";
-
+/*
 header {
   border-bottom: 1px solid white;
   width: 100%;
@@ -47,11 +47,27 @@ header .logo {
   }
 
 }
+*/
+
+.logo{
+  width: 70;
+  height: 50px;
+}
+
+#logo{
+  text-align: center;
+}
+
+hr{
+  border: 1px solid white;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
 body {
   background: $primary-color;
   overflow-x: hidden;
-  scrollbar-width: none;
 }
 
 .button-click {
