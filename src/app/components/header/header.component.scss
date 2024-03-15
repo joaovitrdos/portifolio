@@ -2,16 +2,6 @@
 @import "../../../colors.scss";
 
 @media (300px <= width<= 3000px) {
-  #logo {
-    margin-top: -10px;
-    width: 100px;
-  }
-
-  hr {
-    border: 1px solid color white;
-    margin-bottom: 40px;
-  }
-
   .conteiner {
     text-align: center;
   }

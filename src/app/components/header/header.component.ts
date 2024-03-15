@@ -9,10 +9,4 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  hamb = document.querySelector(".hamb");
-  hamb.onclick = function() {
-navBar = document.querySelector(".nav-bar");
-navBar.classiList.toogle("active");
-}
-
 }

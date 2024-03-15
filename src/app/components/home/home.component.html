@@ -1,82 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet">
-    <link rel="shortcut icon" href="asstes/favion.icon.avif"
-      type="image/x-icon">
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="asstes/favion.icon.avif"
+      type="image/x-icon"
+    />
     <title>Portifolio</title>
   </head>
   <body>
-    <app-header></app-header>
+    
+    <header>
+      <div ><a href="portifolioj.netlify.app">
+        <img class="logo" src="assets/logo.png" alt="">
+      </a>
+    </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="#section001" class="active">Sobre mim</a></li>
+          <li><a href="#section002">Formação</a></li>
+          <li><a href="#section003">Projetos</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <section class="section01">
+    <section id="section001">
+      <app-header></app-header>
+    </section>
+
+    <section id="section002" class="section01">
       <div class="icons-home">
-
         <a href="https://www.linkedin.com/in/jo%C3%A3ovitor-oliveira/">
-          <img class="img-icons-home" src="assets/link.png" alt>
+          <img class="img-icons-home" src="assets/link.png" alt />
         </a>
 
         <a href="https://www.instagram.com/joao_jvs1/">
-          <img class="img-icons-home" src="assets/insta.png" alt>
+          <img class="img-icons-home" src="assets/insta.png" alt />
         </a>
 
-        <a href="https://github.com/joaovitrdos?tab=repositories"><img
-           class="img-icons-home" src="assets/github.png" alt>
-      </a>
+        <a href="https://github.com/joaovitrdos?tab=repositories"
+          ><img class="img-icons-home" src="assets/github.png" alt />
+        </a>
 
-        <a href="assets/Currículo.pdf" download="curriculo-João-Santos"><img
-            class="img-icons-home" src="assets/cv.png" alt>
+        <a href="assets/Currículo.pdf" download="curriculo-João-Santos"
+          ><img class="img-icons-home" src="assets/cv.png" alt />
         </a>
       </div>
     </section>
 
     <div class="button-click">
-
-      <button type="button"><a
-          href="https://mail.google.com/mail/u/0/#inbox?compose=new">ENTRE EM
-          CONTATO <img src="assets/email.png" alt=""></a></button>
-
+      <button type="button">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+          >ENTRE EM CONTATO <img src="assets/email.png" alt
+        /></a>
+      </button>
     </div>
 
     <section class="pai">
       <section class="section02">
         <div class="icons-home02">
           <div class="icons-di">
-            <img class="img-icons" src="assets/js.png" alt>
+            <img class="img-icons" src="assets/js.png" alt />
             <div class="line">
               <div class="liner-color1"></div>
             </div>
           </div>
 
           <div class="icons-di">
-            <img class="img-icons" src="assets/ts.png" alt>
+            <img class="img-icons" src="assets/ts.png" alt />
             <div class="line">
               <div class="liner-color2"></div>
             </div>
           </div>
 
           <div class="icons-di">
-            <img class="img-icons" src="assets/angular.png" alt>
+            <img class="img-icons" src="assets/angular.png" alt />
             <div class="line">
               <div class="liner-color3"></div>
             </div>
           </div>
 
           <div class="icons-di">
-            <img class="img-icons" src="assets/html.png" alt>
+            <img class="img-icons" src="assets/html.png" alt />
             <div class="line">
               <div class="liner-color4"></div>
             </div>
           </div>
 
           <div class="icons-di">
-            <img class="img-icons" src="assets/css.png" alt>
+            <img class="img-icons" src="assets/css.png" alt />
             <div class="line">
               <div class="liner-color5"></div>
             </div>
@@ -86,44 +106,39 @@
 
       <section class="section03">
         <div class="eduction">
-          <h2>
-            Formação
-          </h2>
+          <h2>Formação</h2>
           <p class="para">
-            <strong>
-              UNESC - Centro Universitário do Espírito Santo
-
-            </strong><br>
-            Fevereiro de 2024 - Dezembro de 2027 <br>
+            <strong> UNESC - Centro Universitário do Espírito Santo </strong
+            ><br />
+            Fevereiro de 2024 - Dezembro de 2027 <br />
             Curso: Sistema de Informação (em andamento).
           </p>
           <p class="para">
-            <strong>
-              CEEMTI (Baixo Guandu) - Concluído em 2023
-
-            </strong><br>
-            Ensino Médio Integrado ao Técnico em Informática para Internet <br>
-            Carga
-            horária: 4300h.<br>
-            Escola: Centro Estadual de Ensino Médio em Tempo Integral (Baixo Guandu).
+            <strong> CEEMTI (Baixo Guandu) - Concluído em 2023 </strong><br />
+            Ensino Médio Integrado ao Técnico em Informática para Internet
+            <br />
+            Carga horária: 4300h.<br />
+            Escola: Centro Estadual de Ensino Médio em Tempo Integral (Baixo
+            Guandu).
           </p>
-
         </div>
-
       </section>
     </section>
 
     <section class="section05">
       <div class="linguagens">
-        <h2>
-          Linguagens
-        </h2>
-        <p><img class="bandeira" src="assets/br.png" alt>PT-BR Nativo</p>
-        <p><img class="bandeira" src="assets/es.png" alt>ES-ES Intermediário</p>
+        <h2>Linguagens</h2>
+        <p><img class="bandeira" src="assets/br.png" alt />PT-BR Nativo</p>
+        <p>
+          <img class="bandeira" src="assets/es.png" alt />ES-ES Intermediário
+        </p>
       </div>
     </section>
 
-    <app-project></app-project>
+    <section id="section003">
+      <app-project></app-project>
+    </section>
 
+    <script sr></script>
   </body>
 </html>

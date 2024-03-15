@@ -96,19 +96,12 @@ strong {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, 450px);
-    margin-bottom: 60px;
     justify-content: space-around;
+    justify-items: center;
 
     gap: 50px;
   }
 
-  .intens-pro {
-    background-color: $primary-color;
-    border: 1px solid $secondary-color-text;
-    border-radius: 10px;
-    width: 450px;
-    height: auto;
-  }
 
   #img-ico {
     margin-left: 5px;
@@ -139,7 +132,7 @@ strong {
     background-color: $primary-color;
     border: 1px solid $secondary-color-text;
     border-radius: 10px;
-    width: 500px;
+    width: 450px;
     height: auto;
     margin-top: 50px;
 
