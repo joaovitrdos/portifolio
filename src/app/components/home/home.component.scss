@@ -146,7 +146,6 @@ button:hover {
     font-weight: 300;
     line-height: 27px;
     letter-spacing: 0em;
-    margin-left: 300px;
   }
 }
 
@@ -302,16 +301,29 @@ a {
 
 }
 
+.pai {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  margin-bottom: 60px;
+  justify-content: space-between;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 @media ( 1001px <= width<= 4000px) {
   body {
     background: $primary-color;
     overflow-x: hidden;
     padding: 0px 60px;
-  }
 
-  .pai {
-    display: flex;
   }
+.pai {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 450px);
+  margin-bottom: 60px;
+  justify-content: space-between;
+  text-align: center;
+}
 
-  
 }
